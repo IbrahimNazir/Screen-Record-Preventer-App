@@ -1,19 +1,43 @@
-# No Screenshot App
+# Screen Capture Preventer App 📸
 
-A desktop application built with Electron.js to deter screenshots and screen recordings.
+Welcome to **Screen Capture Preventer App** – the ultimate desktop tool to keep your sensitive content safe from prying eyes! Built with Electron.js and Node.js, this app deters screenshots and screen recordings, giving you peace of mind whether you’re sharing confidential docs, private media, or anything you’d rather keep off the record. Perfect for creators, professionals, and anyone who values privacy.
 
-## Setup
-
-1. Clone the repo: `git clone <repo-url>`
-2. Install dependencies: `npm install`
-3. Run the app: `npm start`
-
-## Build
-
-- Package for distribution: `npm run dist`
+---
 
 ## Features
 
-- Blocks native screenshots/recordings (Windows/macOS).
-- Hides content on focus loss.
-- Adds dynamic watermarks.
+| Feature                | Description                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------- |
+| **Content Protection** | Blocks native screenshots and recordings (e.g., Print Screen, Snipping Tool). |
+| **Focus Detection**    | Hides content instantly when you switch apps or share your screen.            |
+| **Watermark Magic**    | Adds user-specific, timestamped watermarks to every view.                     |
+| **Lightweight**        | Built with Electron.js for speed and simplicity.                              |
+
+---
+
+## Getting Started in 3 Easy Steps
+
+### 1. Install It
+
+Clone the repo and install dependencies – it’s a breeze!
+
+```bash
+git clone https://github.com/IbrahimNazir/Screen-Record-Preventer-App.git
+cd Screen-Record-Preventer-App
+npm install
+npm start
+```
+
+### 2. Launch It
+
+```bash
+npm start
+```
+
+### 3. Build It (Optional)
+
+Want a standalone app? Package it for your OS!
+
+```bash
+npm run dist
+```
